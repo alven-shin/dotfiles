@@ -1,0 +1,22 @@
+[user]
+    name = Alvin Shen
+    email = 29553973+asian-dev@users.noreply.github.com
+[init]
+    defaultBranch = main
+[pull]
+    ff = true
+[alias]
+    a = add
+    aa = add .
+    s = status
+    ss = status --short
+    c = commit
+    cv = commit --verbose
+    d = diff
+    ds = diff --staged
+    p = push
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    b = branch
+    ch = checkout
+[core]
+    excludesfile = ~/.gitignore_global
