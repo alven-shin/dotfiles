@@ -1,4 +1,4 @@
 #!/bin/sh
 
-ln -sf .gitconfig $HOME/.gitconfig
-ln -sf .gitignore_global $HOME/.gitignore_global
+ln -sf $(pwd)/.gitconfig $HOME/.gitconfig
+ln -sf $(pwd)/.gitignore_global $HOME/.gitignore_global
